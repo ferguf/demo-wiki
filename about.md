@@ -3,8 +3,7 @@ layout: page
 title: About
 ---
 
-This is an about page about this awesome site.
-Hope you love it!
+This site is maintained and operated by X an Y 
 
 Reasons:
 - its great.
@@ -12,4 +11,4 @@ Reasons:
 
 ## Other thoughts
 
-This is great.
+Here is some basic infor on editing [Markdown](https://guides.github.com/features/mastering-markdown/)
