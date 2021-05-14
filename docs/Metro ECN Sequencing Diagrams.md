@@ -1,4 +1,5 @@
-# Sequncing Diagram for colorless metro 
+
+# Sequncing Diagram for Colorless Metro 
 
 The following sequencing diagrams visiually describe the liefcycle planning and workflow for deploying metro devices for colorless Metro
 
