@@ -2,14 +2,16 @@
 title: demo Site for Wiki Replacement
 author: GitHub User
 email: francis.ferguson@lumen.com
-description: Network Documentation 
+description: Network Documentation
 
 # Build settings
 markdown: kramdown
 theme: minima
 defaults:
-  - 
+  -
     scope:
       path: ""
     values:
       layout: "posts"
+
+permalink: "/:categories/:title"
