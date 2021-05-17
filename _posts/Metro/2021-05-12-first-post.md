@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Metro - TUN update -
+title: Metro - TUN update with TOC table and 
 ---
 {:toc}
 
+# Introduction
 
 |To:                        | Network Engineering|
 |From:                      | Architecture |
@@ -11,8 +12,6 @@ title: Metro - TUN update -
 |Notification Type:         | Hardware Usage|
 |Notification Target groups:| Metro Engineering|
 |Prepared by:               | James Bachtel|
-
-# Introduction
 
 # Process
 
