@@ -1,6 +1,9 @@
 ---
 layout: post
-title: Metro - TUN update 
+title: Metro - TUN update
+categories: Metro
+permalink: "/TUN/:categories/:title"
+
 ---
 {:toc}
 
