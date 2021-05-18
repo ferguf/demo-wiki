@@ -6,8 +6,8 @@ description: Network Documentation
 
 # Build settings
 markdown: kramdown
-defaults:
 theme: minina
+defaults:
   -
     scope:
       path: ""
