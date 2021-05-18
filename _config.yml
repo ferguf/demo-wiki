@@ -9,7 +9,7 @@ markdown: kramdown
 theme: minina
 permalink: /:categories/:title/
 baseurl: /demo-wiki
-imclude: /_pages
+include: /pages
 relative_links:
   enabled:     true
   collections: true
