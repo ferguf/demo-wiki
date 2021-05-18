@@ -7,3 +7,5 @@ description: Network Documentation
 # Build settings
 markdown: kramdown
 theme: minina
+permalink: /:categories/:title/
+baseurl: /demo-wiki
