@@ -6,7 +6,6 @@ description: Network Documentation
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-dinky
 defaults:
   -
     scope:
