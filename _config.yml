@@ -7,7 +7,7 @@ description: Network Documentation
 # Build settings
 markdown: kramdown
 defaults:
-remote_theme: minina
+theme: minina
   -
     scope:
       path: ""
