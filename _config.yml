@@ -1,5 +1,5 @@
 # basic options
-title: demo Site for Wiki Replacement
+title: Demo Portal for Wiki Replacement
 author: GitHub User
 email: francis.ferguson@lumen.com
 description: Network Documentation
@@ -7,6 +7,7 @@ description: Network Documentation
 # Build settings
 markdown: kramdown
 defaults:
+remote_theme: minina
   -
     scope:
       path: ""
