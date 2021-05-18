@@ -1,15 +1,14 @@
 # basic options
-title: Demo Portal for Wiki Replacement
-author: GitHub User
-email: francis.ferguson@lumen.com
-description: Network Documentation
+title: Network Documentation 
+author: ME
+email: francis.fergsuon@Lumen.com
+description: Messing around
+twitter_username: ferguf123
+github_username:  ferguf123
 
 # Build settings
 markdown: kramdown
-theme: minina
-permalink: /:categories/:title/
+theme: minima
+url: https://ferguf.github.io
 baseurl: /demo-wiki
-include: /pages
-relative_links:
-  enabled:     true
-  collections: true
+
