@@ -15,5 +15,3 @@ defaults:
       layout: "posts"
 
 permalink: "/:categories/:title"
-
-include: [_pages]
