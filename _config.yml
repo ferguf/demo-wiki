@@ -7,11 +7,3 @@ description: Network Documentation
 # Build settings
 markdown: kramdown
 theme: minina
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "posts"
-
-permalink: "/:categories/:title"
