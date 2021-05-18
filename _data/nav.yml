@@ -1,12 +1,23 @@
-- title: "Home"
-  href: "/"
+- title: Home
+  url: /
+- title: About
+  url: /about.html
+- title: Team
+  url: /team.html
 
-- title: "News"
-  href: "/news/"
-
-- title: "Snippets"
-  subcategories:
-    - subtitle: "Example1"
-      subhref: "#"
-    - subtitle: "Example2"
-      subhref: "#"
+- title: TUN
+  url: /TUN.html
+- title: LLD
+  url: /LLD.html
+- title: Store
+  url: /HLD.html
+- title: Support
+  url: /support.html
+  sublinks:
+    - title: FAQ
+      url: /faq.html
+    - title: Documentation
+      url: /documentation.html
+    - title: separator
+    - title: Configlets
+      url: /Configuration.html
