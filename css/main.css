@@ -1,30 +1,52 @@
-body{
-	overflow-y: hidden;
-  text-align: center;
+/* NAVIGATION BAR
+ -------------------------------------------------- */
+#navigation {
+    min-height: 70px !important;
+    padding-top: 10px;
 }
-* {
-  margin: 0;
+#navigation .navbar-brand {
+    padding-right: 28px;
+    width: 280px;
+    border-right: 3px solid rgba(255, 255, 255, 0.1);
+    font-family: "hobo-std", sans-serif;
+    font-style: italic;
+    font-size: 26px !important;
+    color: #5fcf80 !important;
 }
-html, body {
-  height: 100%;
+#navigation .navbar-brand .site-logo {
+    float: left;
+    margin-top: -10px;
+    margin-right: 1rem;
+    width: 250px;
 }
-.page-wrap {
-  min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -142px;
+#navigation #navbar {
+    float: right !important;
+    margin-right: -15px;
+    font-family: 'Helvetica Rounded', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 38px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .5) !important;
 }
-.page-wrap:after {
-  content: "";
-  display: block;
+@media (max-width: 768px) {
+    #navigation #navbar {
+        float: none !important;
+        margin-right: 0;
+    }
 }
-.site-footer, .page-wrap:after {
-  height: 142px;
+#navigation #navbar .navbar-nav li a {
+    color: #b2bbbd !important;
 }
-.site-footer {
-  background: #F8F8F8;
+#navigation #navbar .navbar-nav li a:hover,
+#navigation #navbar .navbar-nav li a:focus {
+    color: #ffffff !important;
+    border-bottom: 2px solid #ffffff !important;
 }
-
-.site-footer p{
-  text-align: center;
-  padding-top: 2%;
+#navigation #navbar .navbar-nav .active a {
+    color: #ffffff !important;
+    border-bottom: 2px solid #ffffff !important;
+}
+#navigation #navbar .navbar-nav .dropdown-menu li a {
+    color: #515151 !important;
+    text-shadow: none !important;
 }
