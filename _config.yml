@@ -10,3 +10,6 @@ theme: minina
 permalink: /:categories/:title/
 baseurl: /demo-wiki
 imclude: /_pages
+relative_links:
+  enabled:     true
+  collections: true
