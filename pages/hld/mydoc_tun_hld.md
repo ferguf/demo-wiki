@@ -13,7 +13,7 @@ folder: hld
 Use a text editor such as atom, Sublime Text, WebStorm, IntelliJ or Visual Studio Code to create pages. Atom is recommended because it's created by Github, which is driving some of the Jekyll development through Github Pages.
 
 ## Git hub account
-you should signup and get a Github account, you can then download this repo and start editing 
+you should signup and get a Github account, you can then download this repo and start editing
 
 ## Where to save pages on Lumen Doc
 You *MUST* store your pages in the \_hld folders and in the appropriate subdirectory that is based on product or technology, Jeykll supports any level of folder nesting.
@@ -160,6 +160,11 @@ If you add `published: false` in the frontmatter, your page won't be published. 
 ## Adding and internal Link
 
 How to add an [*Internal Links*](mydoc_hyperlinks.html) or [*External Links*](mydoc_hyperlinks.html)
+
+How to add an [*Adding an Image *](mydoc_images.html)
+
+How to add an [*Downloading a file *](mydoc_images.html)
+
 
 ## Markdown or HTML format
 
