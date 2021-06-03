@@ -16,7 +16,7 @@ summary: The Home for all Lumen Technical Documentation for IP , Transport, Metr
 
 <ul >
     {% for post in site.posts limit:5 %}
-    <li><span>{{ post.date | date_to_string }} </span> &raquo; <a href="{{ baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    <li><span>{{ post.date | date_to_string }} </span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 
         {{ post.summary }}<br>
     {% endfor %}
@@ -27,7 +27,7 @@ summary: The Home for all Lumen Technical Documentation for IP , Transport, Metr
 <ul >
 {% assign sorted = site.hld | sort: 'date' |reverse %}
     {% for post in sorted limit:5 %}
-    <li><span>{{ post.date | date_to_string }} </span> &raquo; <a href="{{ baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    <li><span>{{ post.date | date_to_string }} </span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 
         {{ post.summary }}<br>
     {% endfor %}
