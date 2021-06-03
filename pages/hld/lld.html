@@ -1,0 +1,222 @@
+---
+title: LLD Page
+tags: [special_layouts]
+last_updated: November 30, 2015
+keywords: lld, Config, Confuration,
+summary: "This layout shows an example of a knowledge-base style navigation system, where there is no hierarchy, just groups of pages that have certain tags."
+permalink: lld.html
+toc: false
+sidebar: LLD_sidebar
+folder: mydoc
+---
+
+{% if site.output == "pdf" %}
+{{site.data.alerts.note}} The content on this page doesn't display well on PDF, but I included it anyway so you could see the problems this layout poses if you're including it in PDF.  {{site.data.alerts.end}}
+{% endif %}
+
+{% unless site.output == "pdf" %}
+<script src="js/jquery.shuffle.min.js"></script>
+<script src="js/jquery.ba-throttle-debounce.min.js"></script>
+{% endunless %}
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header">Network and Technologies</h2>
+    </div>
+    <div class="col-lg-12">
+
+        <ul id="myTab" class="nav nav-tabs nav-justified">
+            <li class="active"><a href="#Metro" data-toggle="tab"><i class="fa fa-spinner" ></i> Metro</a>
+            </li>
+            <li class=""><a href="#AS3356" data-toggle="tab"><i class="fa fa-steam" ></i> AS3356</a>
+            </li>
+            <li class=""><a href="#AS3549" data-toggle="tab"><i class="fa fa-ship"></i> AS3549</a>
+            </li>
+
+            <li class=""><a href="#AS209" data-toggle="tab"><i class="fa fa-rss" ></i> AS209</a>
+            </li>
+            <li class=""><a href="#iLEC" data-toggle="tab"><i class="fa fa-database"></i> iLEC</a>
+            </li>
+            <li class=""><a href="#transport" data-toggle="tab"><i class="fa fa-database"></i> Transport</a>
+            </li>
+        </ul>
+
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade active in" id="Metro">
+                <h4>Metro</h4>
+                The polulation of this page is using "tags" that are attached to the frontmatter in the document, in this instances it is matching on the "getting started" tag in the pages directory.
+                <ul>
+              {% assign sorted = site.hld | sort: 'date' |reverse %}
+              {% for page in sorted %}
+              {% for tag in page.tags %}
+              {% if tag == "metro" %}
+                <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+              {% endif %}
+              {% endfor %}
+              {% endfor %}
+            </div>
+            <div class="tab-pane fade" id="AS3356">
+                <h4>AS3356</h4>
+                The polulation of this page is using "tags" that are attached to the frontmatter in the document, in this instances it is matching on the "content-type" tag in the pages directory.
+                <ul>
+              {% assign sorted = site.hld | sort: 'date' |reverse %}
+              {% for page in sorted %}
+              {% for tag in page.tags %}
+              {% if tag == "AS3356" %}
+                <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+              {% endif %}
+              {% endfor %}
+              {% endfor %}
+            </div>
+            <div class="tab-pane fade" id="AS3549">
+                <h4>AS3549</h4>
+                The polulation of this page is using "tags" that are attached to the frontmatter in the document, in this instances it is matching on the "content" tag in the pages directory.
+                <ul>
+              {% assign sorted = site.hld | sort: 'date' |reverse %}
+              {% for page in sorted %}
+              {% for tag in page.tags %}
+              {% if tag == "AS3549" %}
+                <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+              {% endif %}
+              {% endfor %}
+              {% endfor %}
+            </div>
+            <div class="tab-pane fade" id="AS209">
+                <h4>AS209</h4>
+                The polulation of this page is using "tags" that are attached to the frontmatter in the document, in this instances it is matching on the "content" tag in the pages directory.
+                <ul>
+              {% assign sorted = site.hld | sort: 'date' |reverse %}
+              {% for page in sorted %}              {% for tag in page.tags %}
+              {% if tag == "AS209" %}
+                <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+              {% endif %}
+              {% endfor %}
+              {% endfor %}
+            </div>
+            <div class="tab-pane fade" id="iLEC">
+                <h4>iLEC</h4>
+                The polulation of this page is using "tags" that are attached to the frontmatter in the document, in this instances it is matching on the "content" tag in the pages directory.
+                <ul>
+              {% assign sorted = site.hld | sort: 'date' |reverse %}
+              {% for page in sorted %}
+              {% for tag in page.tags %}
+              {% if tag == "ilec" %}
+                <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+              {% endif %}
+              {% endfor %}
+              {% endfor %}
+            </div>
+            <div class="tab-pane fade" id="transport">
+                <h4>iLEC</h4>
+                The polulation of this page is using "tags" that are attached to the frontmatter in the document, in this instances it is matching on the "content" tag in the pages directory.
+                <ul>
+              {% assign sorted = site.hld | sort: 'date' |reverse %}
+              {% for page in sorted %}
+              {% for tag in page.tags %}
+              {% if tag == "transport" %}
+                <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+              {% endif %}
+              {% endfor %}
+              {% endfor %}
+            </div>
+          </div>
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header">Products and Services</h2>
+    </div>
+    <div class="col-lg-12">
+
+        <ul id="myTab" class="nav nav-tabs nav-justified">
+            <li class="active"><a href="#IPVPN" data-toggle="tab"><i class="fa fa-car"></i>IPVPN</a>
+            </li>
+            <li class=""><a href="#SDWAN" data-toggle="tab"><i class="fa fa-arrow-right"></i>SDWAN</a>
+            </li>
+            <li class=""><a href="#E-Services" data-toggle="tab"><i class="fa fa-arrow-left"></i>E-Services</a>
+            </li>
+            <li class=""><a href="#IQ-Services" data-toggle="tab"><i class="fa fa-location-arrow"></i>IQ Services</a>
+            </li>
+            <li class=""><a href="#Fiber-plus" data-toggle="tab"><i class="fa fa-database"></i>Fiber +</a>
+            </li>
+        </ul>
+
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade active in" id="IPVPN">
+                <h4>IPVPN</h4>
+                The polulation of this page is using "tags" that are attached to the frontmatter in the document, in this instances it is matching on the "content" tag in the pages directory.
+                <ul>
+              {% assign sorted = site.pages | sort: 'date' |reverse %}
+              {% for page in sorted %}
+              {% for tag in page.tags %}
+              {% if tag == "publishing" %}
+                <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+              {% endif %}
+              {% endfor %}
+              {% endfor %}
+            </div>
+            <div class="tab-pane fade" id="SDWAN">
+                <h4>SD-WAN</h4>
+                The polulation of this page is using "tags" that are attached to the frontmatter in the document, in this instances it is matching on the "content" tag in the pages directory.
+                <ul>
+              {% assign sorted = site.pages | sort: 'date' |reverse %}
+              {% for page in sorted %}
+              {% for tag in page.tags %}
+              {% if tag == "publishing" %}
+                <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+              {% endif %}
+              {% endfor %}
+              {% endfor %}
+            </div>
+            <div class="tab-pane fade" id="IQ-Services">
+                <h4>IQ-Services</h4>
+
+                The polulation of this page is using "tags" that are attached to the frontmatter in the document, in this instances it is matching on the "content" tag in the pages directory.
+                <ul>
+              {% assign sorted = site.pages | sort: 'date' |reverse %}
+              {% for page in sorted %}
+              {% for tag in page.tags %}
+              {% if tag == "publishing" %}
+                <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+              {% endif %}
+              {% endfor %}
+              {% endfor %}
+            </div>
+            <div class="tab-pane fade" id="E-services">
+                <h4>E-services</h4>
+                The polulation of this page is using "tags" that are attached to the frontmatter in the document, in this instances it is matching on the "content" tag in the pages directory.
+                <ul>
+              {% assign sorted = site.pages | sort: 'date' |reverse %}
+              {% for page in sorted %}
+              {% for tag in page.tags %}
+              {% if tag == "publishing" %}
+                <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+              {% endif %}
+              {% endfor %}
+              {% endfor %}
+            </div>
+            <div class="tab-pane fade" id="Fiber-plus">
+                <h4>Fiber +</h4>
+                The polulation of this page is using "tags" that are attached to the frontmatter in the document, in this instances it is matching on the "content" tag in the pages directory.
+                <ul>
+              {% assign sorted = site.pages | sort: 'date' |reverse %}
+              {% for page in sorted %}
+              {% for tag in page.tags %}
+              {% if tag == "publishing" %}
+                <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+              {% endif %}
+              {% endfor %}
+              {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% unless site.output == "pdf" %}
+{% include initialize_shuffle.html %}
+{% endunless %}
+
+{{site.data.alerts.note}} This was mostly an experiment to see if I could break away from the hierarchical TOC and provide a different way of arranging the content. However, this layout is somewhat problematic because it doesn't allow you to browse other navigation options on the side while viewing a topic.{{site.data.alerts.end}}

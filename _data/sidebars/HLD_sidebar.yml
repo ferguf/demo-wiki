@@ -1,0 +1,191 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: High Level Designs
+  product: HLD
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Infrastucture
+    output: web, pdf
+    folderitems:
+
+    - title: AS3356
+      url: /tag_AS3356_hld.html
+      output: web, pdf
+
+    - title: AS3549
+      url: /tag_AS3549_hld.html
+      output: web, pdf
+
+    - title: AS209
+      url: /tag_AS209_hld.html
+      output: web, pdf
+
+    - title: Metro 3.0
+      url: /tag_metro_hld.html
+      output: web, pdf
+
+    - title: Metro iLEC
+      url: /tag_metro_ilec_hld.html
+      output: web, pdf
+
+    - title: API - 1
+      url: /api_1.html
+      output: web, pdf
+    - title: API - 2
+      url: /api_2.html
+      output: web, pdf
+
+
+  - title: MPLS Services
+    output: web, pdf
+    folderitems:
+
+    - title: Integrated IPVPN
+      url: /p2_sample1.html
+      output: web, pdf
+
+    - title: IQ-IPVPN
+      url: /p2_sample1.html
+      output: web, pdf
+
+    - title: Versa SW-WAN
+      url: /p2_sample3.html
+      output: web, pdf
+
+    - title: Meraki SW-WAN
+      url: /p2_sample3.html
+      output: web, pdf
+
+  - title: E-Services
+    output: web, pdf
+    folderitems:
+
+    - title: E-line
+      url: /p2_sample1.html
+      output: web, pdf
+
+    - title: E-Access
+      url: /p2_sample1.html
+      output: web, pdf
+
+    - title: E-LAN
+      url: /p2_sample2.html
+      output: web, pdf
+
+    - title: E-Lynk
+      url: /p2_sample3.html
+      output: web, pdf
+
+  - title: Access
+    output: web, pdf
+    folderitems:
+
+    - title: GPON and XGS-PON
+      url: /p2_sample1.html
+      output: web, pdf
+
+    - title: DSL
+      url: /p2_sample2.html
+      output: web, pdf
+
+    - title: g.fast
+      url: /p2_sample2.html
+      output: web, pdf
+
+    - title: g.hn
+      url: /p2_sample2.html
+      output: web, pdf
+
+    - title: home gateway
+      url: /p2_sample2.html
+      output: web, pdf
+
+    - title: home wifi - Plume
+      url: /p2_sample2.html
+      output: web, pdf
+
+  - title: Voice
+    output: web, pdf
+    folderitems:
+
+    - title: Voice
+      url: /p2_sample1.html
+      output: web, pdf
+
+    - title: Voice Complete
+      url: /p2_sample2.html
+      output: web, pdf
+
+  - title: Transport
+    output: web, pdf
+    folderitems:
+
+    - title: iLEC Transport
+      url: /p2_sample1.html
+      output: web, pdf
+
+    - title: National Transport
+      url: /p2_sample2.html
+      output: web, pdf
+
+    - title: Intercity Transport
+      url: /p2_sample3.html
+      output: web, pdf
+
+    - title: Subsea Transport
+      url: /p2_sample4.html
+      output: web, pdf
+
+  - title: Authoring a HLD
+    output: web, pdf
+
+    folderitems:
+    - title: TUN or HLD
+      url: /mydoc_tun_hld.html
+      output: web, pdf
+
+    - title: Pages
+      url: /mydoc_pages.html
+      output: web, pdf
+
+    - title: Posts
+      url: /mydoc_posts.html
+      output: web, pdf
+
+    - title: Lists
+      url: /mydoc_lists.html
+      output: web, pdf
+
+    - title: Conditional logic
+      url: /mydoc_conditional_logic.html
+      output: web, pdf
+
+    - title: Content reuse
+      url: /mydoc_content_reuse.html
+      output: web, pdf
+
+    - title: Collections
+      url: /mydoc_collections.html
+      output: web, pdf
+
+    - title: WebStorm editor tips
+      url: /mydoc_webstorm_text_editor.html
+      output: web, pdf
+
+    - title: Atom editor tips
+      url: /mydoc_atom_text_editor.html
+      output: web, pdf

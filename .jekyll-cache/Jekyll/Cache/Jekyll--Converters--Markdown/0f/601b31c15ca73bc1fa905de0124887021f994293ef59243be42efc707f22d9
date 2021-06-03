@@ -1,0 +1,391 @@
+I"�*
+<table>
+  <tbody>
+    <tr>
+      <td>To:</td>
+      <td>Network Engineering</td>
+    </tr>
+    <tr>
+      <td>From:</td>
+      <td>Network Architecture</td>
+    </tr>
+    <tr>
+      <td>Date:</td>
+      <td>12-24-2021</td>
+    </tr>
+    <tr>
+      <td>Notification Type:</td>
+      <td>Hardware Update</td>
+    </tr>
+    <tr>
+      <td>Notification Target groups:</td>
+      <td>AS209 Engineering</td>
+    </tr>
+    <tr>
+      <td>Prepared:</td>
+      <td>James Bachtel</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Notification Number:</td>
+      <td>TUN-AS209-2029</td>
+    </tr>
+    <tr>
+      <td>Notification Name:</td>
+      <td>New 100GE QSFP28 Optics for AS209</td>
+    </tr>
+    <tr>
+      <td>Status:</td>
+      <td>Active</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This <strong>Technology Update Notification</strong> (TUN) is being published to inform you of changes or additions to Lumen Technology’s network architecture, hardware, software or device configuration. This TUN is a dated document and reflects changes to the architecture, hardware, software, or device configuration at this moment in time. As such, subsequent policy updates may be issued at a later date that could override this document.</p>
+
+<h1 id="purpose">Purpose</h1>
+<p>This <strong>Technology Update Notification</strong> advises the respective groups of the proposed changes to the currently approved configurations in <strong>Lumen’s</strong> network. A <strong>TUN</strong> is accompanied by WIKI documents that have been updated with information about new deployment standards and general configuration templates. A <strong>TUN</strong> announces that the architecture design work has been completed, with new architectures documented and approved by the architecture team. This <strong>TUN</strong> can be used as a notification to other teams and a handoff for further development.</p>
+
+<div class="alert alert-warning" role="alert"><i class="fa fa-warning"></i> <b>Important:</b> <strong>A TUN does not approve technologies or configuration changes, for use in the production network.</strong></div>
+
+<h1 id="introduction">Introduction</h1>
+<p>The <a href="http://wiki.level3.com/wiki/Network_Architecture_and_Design_-_Third_Party_Optics">Third Party Optics</a>  wiki describes the approved certification and use of Champion One optics in the various IP/Data Routing, Switching and NID platforms deployed within the affiliate CenturyLink Networks. To date Champion One Optics have been Tested and Certified for use in the <strong>AS209 2.0/ 3.0, AS209, ILEC AS209, AS3549 (MPLS) and AS 3356 (Internet )</strong> networks.</p>
+
+<h2 id="business-driver-and-timing">Business Driver and Timing</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Business Driver</td>
+      <td>Timing</td>
+    </tr>
+    <tr>
+      <td>Test and Certify new set of Champion One 100GE QSFP28 optics</td>
+      <td>Q2 2021</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="network-impact">Network Impact</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Network</td>
+      <td>Impact</td>
+    </tr>
+    <tr>
+      <td><em>3356</em></td>
+      <td>Certification of optics</td>
+    </tr>
+    <tr>
+      <td><em>3549</em></td>
+      <td>Certification of optics</td>
+    </tr>
+    <tr>
+      <td><em>209</em></td>
+      <td>Certification of optics</td>
+    </tr>
+    <tr>
+      <td><em>iLEC AS209</em></td>
+      <td>Certification of optics</td>
+    </tr>
+    <tr>
+      <td><em>AS209 3.0</em></td>
+      <td>Certification of optics</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="impacted-architecture">Impacted Architecture</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td><em>Severity:</em></td>
+      <td>Minor</td>
+    </tr>
+    <tr>
+      <td><em>Architectures Impacted</em>:</td>
+      <td>AS209 3.0, 3356 , 3549, AS209</td>
+    </tr>
+    <tr>
+      <td><em>Availability Date:</em></td>
+      <td>Q2 2021</td>
+    </tr>
+    <tr>
+      <td><em>Operational Impact:</em></td>
+      <td>Test and Certify new set of Champion One 100GE QSFP28 optics and update associated documentation</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="impacted-platform">Impacted Platform</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Platform</td>
+      <td>Multiple</td>
+    </tr>
+    <tr>
+      <td>Role</td>
+      <td>See Tables Below</td>
+    </tr>
+    <tr>
+      <td>OS version</td>
+      <td>See Tables Below</td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>Multiple</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="impacted-product">Impacted Product</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Product</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Impact</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>None</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="impacted-systems">Impacted Systems</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Systems</td>
+      <td>Development</td>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <td>ASRI</td>
+      <td>Required</td>
+      <td>Inventory of new optic types</td>
+    </tr>
+    <tr>
+      <td>SAP</td>
+      <td>Required</td>
+      <td>SAP Material codes to be created at completion of certification testing</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="new-100g-qsfp28-optics-to-be-certified">New 100G QSFP28 Optics to be certified</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>SAP Mat Code</td>
+      <td>C1 Part Number</td>
+      <td>C1 Short Description</td>
+      <td>Form Factor</td>
+      <td>Vendor</td>
+      <td>Platform</td>
+      <td>Software</td>
+      <td>Line Card</td>
+    </tr>
+    <tr>
+      <td>TBD</td>
+      <td>100GQSFP28E-ER4</td>
+      <td>100G QSFP28 ER4</td>
+      <td>QSFP28</td>
+      <td>Cisco</td>
+      <td>NCS540/NCS5501-SE</td>
+      <td>6.5.3 and newer</td>
+      <td>built-in ports</td>
+    </tr>
+    <tr>
+      <td>Cisco</td>
+      <td>NCS5504/NCS5508</td>
+      <td>6.5.3 and newer</td>
+      <td>NC55-36X100G-BA: NCS 5500 36x100G Base Line Card</td>
+      <td>TBD</td>
+      <td>100GQSFP28E-ZR4</td>
+      <td>100G QSFP28 ZR4</td>
+      <td>QSFP28</td>
+    </tr>
+    <tr>
+      <td>Cisco</td>
+      <td>NCS540/NCS5501-SE</td>
+      <td>6.5.3 and newer</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>built-in ports</td>
+    </tr>
+    <tr>
+      <td>Cisco</td>
+      <td>NCS5504/NCS5508</td>
+      <td>6.5.3 and newer</td>
+      <td>NC55-36X100G-BA: NCS 5500 36x100G Base Line Card</td>
+      <td>TBD</td>
+      <td>100GQSFP28ERBL20</td>
+      <td>100G QSFP28 BIDI 4WDM20</td>
+      <td>QSFP28</td>
+    </tr>
+    <tr>
+      <td>Cisco</td>
+      <td>NCS540/NCS5501-SE</td>
+      <td>6.5.3 and newer</td>
+      <td>built-in ports</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Cisco</td>
+      <td>NCS5504/NCS5508</td>
+      <td>6.5.3 and newer</td>
+      <td>NC55-36X100G-BA: NCS 5500 36x100G Base Line Card</td>
+      <td>TBD</td>
+      <td>100GQSFP28EBBL20</td>
+      <td>100G QSFP28 BIDI 4WDM20</td>
+      <td>QSFP28</td>
+    </tr>
+    <tr>
+      <td>Cisco</td>
+      <td>NCS540/NCS5501-SE</td>
+      <td>6.5.3 and newer</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>built-in ports</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Cisco</td>
+      <td>NCS5504/NCS5508</td>
+      <td>6.5.3 and newer</td>
+      <td>NC55-36X100G-BA: NCS 5500 36x100G Base Line Card</td>
+      <td>TBD</td>
+      <td>100GQSFP28E-FR1</td>
+      <td>100G QSFP28 FR</td>
+      <td>QSFP28</td>
+    </tr>
+    <tr>
+      <td>Cisco</td>
+      <td>NCS540/NCS5501-SE</td>
+      <td>6.5.3 and newer</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td>built-in ports</td>
+    </tr>
+    <tr>
+      <td>Cisco</td>
+      <td>NCS5504/NCS5508</td>
+      <td>6.5.3 and newer</td>
+      <td>NC55-36X100G-BA: NCS 5500 36x100G Base Line Card</td>
+      <td>TBD</td>
+      <td>100GQSFP28E-LR1</td>
+      <td>100G QSFP28 LR</td>
+      <td>QSFP28</td>
+    </tr>
+    <tr>
+      <td>Cisco</td>
+      <td>NCS540/NCS5501-SE</td>
+      <td>6.5.3 and newer</td>
+      <td>built-in ports</td>
+      <td>Cisco</td>
+      <td>NCS5504/NCS5508</td>
+      <td>6.5.3 and newer</td>
+      <td>NC55-36X100G-BA: NCS 5500 36x100G Base Line Card</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="new-100g-qsfp28-optics-information">New 100G QSFP28 Optics Information</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Short Description</td>
+      <td>C1 PN</td>
+      <td>Long Description</td>
+      <td>Specification Source</td>
+      <td>Fiber Type</td>
+      <td>Rated Distance</td>
+      <td>Purpose</td>
+    </tr>
+    <tr>
+      <td>100G QSFP28 ER4</td>
+      <td>100GQSFP28E-ER4</td>
+      <td>100G QSFP28 LAN WDM 40-km, SMF, LC connector, C-Temp</td>
+      <td>QSFP+ MSA 100G MSA</td>
+      <td>SMF</td>
+      <td>40km</td>
+      <td>Extended reach over Dark-Fiber for AS209 3.0 Rings &amp; Infrastructure</td>
+    </tr>
+    <tr>
+      <td>100G QSFP28 ZR4</td>
+      <td>100GQSFP28E-ZR4</td>
+      <td>100G QSFP28 LAN WDM 80-km, SMF, LC connector, C-Temp</td>
+      <td>QSFP+ MSA 100G MSA</td>
+      <td>SMF</td>
+      <td>80km</td>
+      <td>Extra Long reach over Dark-Fiber for AS209 3.0 Rings &amp; Infrastructure</td>
+    </tr>
+    <tr>
+      <td>100G QSFP28 BIDI 4WDM20</td>
+      <td>100GQSFP28ERBL20</td>
+      <td>100G BIDI QSFP28 4WDM 20km, e-temp, single fiber LC connector, red side</td>
+      <td>QSFP28 MSA 4WDM MSA</td>
+      <td>SMF</td>
+      <td>20km w/FEC</td>
+      <td>Intermediate reach BiDi over Dark-Fiber for AS209 3.0 Rings &amp; Infrastructure</td>
+    </tr>
+    <tr>
+      <td>100G QSFP28 BIDI 4WDM20</td>
+      <td>100GQSFP28EBBL20</td>
+      <td>100G BIDI QSFP28 4WDM 20km, e-temp, single fiber LC connector, blue side</td>
+      <td>QSFP28 MSA 4WDM MSA</td>
+      <td>SMF</td>
+      <td>20km w/FEC</td>
+      <td>Intermediate reach BiDi over Dark-Fiber for AS209 3.0 Rings &amp; Infrastructure</td>
+    </tr>
+    <tr>
+      <td>100G QSFP28 FR</td>
+      <td>100GQSFP28E-FR1</td>
+      <td>100G QSFP28 FR1, 1 x 106.25Gb/S PAM4, 1310nm SMF LC connector, C-Temp, 2km, single Lambda</td>
+      <td>100G Lambda MSA</td>
+      <td>SMF</td>
+      <td>2Km over SMF with FEC</td>
+      <td>Short Reach interoperation with 400G QSFP56DD FR4 to FR1 via 4 x 100GE breakout</td>
+    </tr>
+    <tr>
+      <td>100G QSFP28 LR</td>
+      <td>100GQSFP28E-LR1</td>
+      <td>100G QSFP28 LR1, 1 x 106.25Gb/S PAM4, 1310nm SMF LC connector, C-Temp, 10km, single Lambda</td>
+      <td>100G Lambda MSA</td>
+      <td>SMF</td>
+      <td>10Km over SMF with FEC</td>
+      <td>Long Reach interoperation with 400G QSFP56DD FR4 to FR1 via 4 x 100GE breakout</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="additional-documentation--references">Additional Documentation &amp; References</h2>
+<p><a href="http://wiki.level3.com/wiki/Network_Architecture_and_Design_-_Third_Party_Optics">Network Architecture and Design - Third Party Optics</a></p>
+
+:ET

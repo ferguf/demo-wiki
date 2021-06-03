@@ -1,0 +1,61 @@
+I"Å
+<div class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note:</b>  <a href="mydoc_getting_started.html">Start here</a> for a overview of how to get started on the Technical documentation journey</div>
+
+<h1 id="latest-publications">Latest Publications</h1>
+
+<h2 id="tuns">TUNs</h2>
+
+<ul>
+    
+    <li><span>21 May 2021 </span> &raquo; <a href="/TUN_transport_003.html">Transport TUN - Sample Transport 003</a></li>
+
+        This TUN specifies the updates and changes to  Transport Architecture<br />
+    
+    <li><span>12 May 2021 </span> &raquo; <a href="/TUN_Metro_3.html">Metro TUN - ECN Certification</a></li>
+
+        This TUN specifies the updates and changes to  Metro Architecture.<br />
+    
+    <li><span>01 May 2021 </span> &raquo; <a href="/TUN_transport_001.html">Transport TUN - Sample Transport-1</a></li>
+
+        This TUN specifies the updates and changes to  Transport Architecture<br />
+    
+    <li><span>01 May 2021 </span> &raquo; <a href="/TUN_Metro_2.html">Metro TUN - New 100GE QSFP28 Optics for Metro 3.0</a></li>
+
+        This TUN specifies the updates and changes to  Metro Architecture<br />
+    
+    <li><span>01 May 2021 </span> &raquo; <a href="/TUN_AS3356_2.html">AS3356 TUN - Nokia 7750 SR7 certification</a></li>
+
+        This TUN specifies the updates and changes to  AS3356 Architecture.<br />
+    
+</ul>
+
+<h2 id="hlds">HLDs</h2>
+
+<ul>
+
+    
+    <li><span>21 May 2021 </span> &raquo; <a href="/HLD_metro_ilec_HLD1.html">HLD Metro ilec Sample HLD#1</a></li>
+
+        This HLD specifies the iLEC Metro Architecture.<br />
+    
+    <li><span>08 May 2021 </span> &raquo; <a href="/HLD-metro-hld3.html">HLD Metro Sample - NID Certification</a></li>
+
+        This HLD specifies the Certification of NID hardware.<br />
+    
+    <li><span>05 May 2021 </span> &raquo; <a href="/HLD_AS209_001.html">HLD AS209 Sample HLD#1</a></li>
+
+        This HLD specifies the AS209 Architecture. The primary goal of this HLD is to establish the protocols and mechanisms which will be used to interconnect the AS209 - AS3549.<br />
+    
+    <li><span>05 May 2021 </span> &raquo; <a href="/HLD_AS3356_001.html">HLD AS3356 Sample HLD#1</a></li>
+
+        This HLD specifies the AS3356 Architecture.<br />
+    
+    <li><span>01 May 2021 </span> &raquo; <a href="/HLD_Metro_hld1.html">HLD Colorless Metro</a></li>
+
+        This HLD specifies the Colorless Metro Ethernet Architecture for Metro Access Networks, a.k.a. Metro 3.0, Legacy QC ILEC and Legacy EQ/CTL ILEC Networks.  The primary goal of this HLD is to establish the protocols and mechanisms which will be used to interconnect the Metro 3.0 and ILEC networks and to provision services end-to-end between the two networks.<br />
+    
+</ul>
+
+<h2 id="llds">LLDs</h2>
+
+:ET

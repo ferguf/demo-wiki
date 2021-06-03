@@ -1,0 +1,187 @@
+I"<h2 id="description">Description</h2>
+
+<p>Finds Pets by status</p>
+
+<p>Multiple status values can be provided with comma separated strings</p>
+
+<h2 id="path-parameters">Path parameters</h2>
+
+<!-- Liquid chokes on the $ sign, so reference this variable instead -->
+
+<!-- Determine if there are any parameters of the specified type -->
+
+<p>None</p>
+
+<h2 id="query-parameters">Query parameters</h2>
+
+<!-- Liquid chokes on the $ sign, so reference this variable instead -->
+
+<!-- Determine if there are any parameters of the specified type -->
+
+<!-- Read path, query, and formData parameters directly -->
+<table>
+    <thead>
+    <tr>
+        <th>Name</th><th>Type</th><th>Description</th><th>Required?</th>
+    </tr>
+    </thead>
+    <!-- For each parameter, get the information from the Swagger file -->
+    
+        
+        <tr>
+            <td><code>status</code></td>
+            <td><code>array</code></td>
+            <td>
+            <!-- If it's an enum, list the values first -->
+            
+            Values: 
+                
+                <code>available</code>
+                
+                <code>pending</code>
+                
+                <code>sold</code>
+                
+            <br />
+            
+            Status values that need to be considered for filter
+            </td>
+            <td><code>true</code></td>
+        </tr>
+        
+    
+</table>
+
+<h2 id="responses">Responses</h2>
+
+<!-- Determine if there are any responses listed in the Swagger file -->
+
+<table>
+    <thead>
+    <tr><th>Code</th><th>Returns</th></tr>
+    </thead>
+    <!-- For each response, get the code from the Swagger file -->
+    
+        <tr>
+            <!-- response[0] is the response code -->
+            <td>200</td>
+            <td>
+            successful operation
+            </td>
+        </tr>
+    
+        <tr>
+            <!-- response[0] is the response code -->
+            <td>400</td>
+            <td>
+            Invalid status value
+            </td>
+        </tr>
+    
+</table>
+
+<p>Content types:</p>
+
+<ul>
+  <li>
+    <p>application/xml</p>
+  </li>
+  <li>
+    <p>application/json</p>
+  </li>
+</ul>
+
+<h2 id="examples">Examples</h2>
+<ul id="profileTabs" class="nav nav-tabs">
+    <li class="active"><a href="#python" data-toggle="tab">Python</a></li>
+    <li><a href="#postman" data-toggle="tab">Postman</a></li>
+    <li><a href="#curl" data-toggle="tab">cURL</a></li>
+</ul>
+
+<div class="tab-content">
+
+<div role="tabpanel" class="tab-pane active" id="python">
+<p>The example below shows how to request all pets listed as <code>available</code>. You'll need to install the <a href="http://docs.python-requests.org/en/master/user/quickstart/"> Requests</a> library into your virtual environment (<code>pip install requests</code>).</p>
+
+<pre class="highlight">
+<code>import requests
+import json
+
+url = 'http://petstore.swagger.io/v2/pet/findByStatus?status=available'
+response = requests.get(url).json()</code>
+</pre>
+
+<p>To display the first three results:</p>
+
+<pre class="highlight">
+<code>&gt;&gt;&gt; response[:3]
+[{'id': 1116,
+  'category': {'id': 0, 'name': 'string'},
+  'name': 'doggie',
+  'photoUrls': ['string'],
+  'tags': [{'id': 0, 'name': 'string'}],
+  'status': 'available'},
+ {'id': 1427504384,
+  'name': 'Fido',
+  'photoUrls': [],
+  'tags': [],
+  'status': 'available'},
+ {'id': 1427504385,
+  'category': {'id': 0, 'name': 'Lions'},
+  'name': 'Simba',
+  'photoUrls': ['Simba-photo'],
+  'tags': [{'id': 0, 'name': 'Sarko'}],
+  'status': 'available'}]</code>
+</pre>
+</div>
+
+<div role="tabpanel" class="tab-pane" id="postman">
+<ol>
+<li>In Postman, enter the URL:<br /><code>http://petstore.swagger.io/v2/pet/findByStatus?status=available</code></li>
+<li>When you execute the request, the response body will look something like this:
+   <figure><img class="docimage" src="images/postman.png" alt="" style="max-width: 780px" /></figure>
+
+</li>
+</ol>
+</div>
+
+<div role="tabpanel" class="tab-pane" id="curl">
+<pre class="highlight">
+<code>curl -X GET "http://petstore.swagger.io/v2/pet/findByStatus?status=available" -H "accept: application/json" | python -m json.tool
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 3446k    0 3446k    0     0  5989k      0 --:--:-- --:--:-- --:--:-- 5983k
+[
+    {
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "id": 1116,
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "status": "available",
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ]
+    },
+    {
+        "id": 1427504384,
+        "name": "Fido",
+        "photoUrls": [],
+        "status": "available",
+        "tags": []
+    },
+    ...
+</code>
+</pre>
+</div>
+</div>
+
+:ET

@@ -1,0 +1,73 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: TUNs
+      url: /news
+    - title: HLDs
+      url: /hld
+    - title: LLDs
+      url: /lld.html
+
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+        - title: Departments
+          folderitems:
+            - title: Network Architecture - IP
+              url: /mydoc_introduction.html
+            - title: Network Architecture - transport
+              url: /mydoc_introduction.html
+            - title: Network Architecture - Voice
+              url: /mydoc_introduction.html
+            - title: Network Engineering - Metro
+              url: /p1_landing_page.html
+            - title: Network Engineering - Internet
+              url: /p2_landing_page.html
+            - title: Network Engineering - IP Services
+              url: /mydoc_introduction.html
+            - title: Network Engineering - Voice
+              url: /p1_landing_page.html
+            - title: Network Systems
+              url: /p2_landing_page.html
+        - title: Products
+          folderitems:
+            - title: Product 1
+              url: /p1_landing_page.html
+            - title: Product 2
+              url: /p2_landing_page.html
+            - title: E-services
+              url: /mydoc_introduction.html
+            - title: IPVPN
+              url: /p1_landing_page.html
+            - title: Internet
+              url: /p2_landing_page.html
+            - title: Transport
+              url: /mydoc_introduction.html
+            - title: SDWAN
+              url: /p2_landing_page.html
+            - title: Fiber +
+              url: /p2_landing_page.html
+            - title: Product1
+              url: /p1_landing_page.html
+            - title: Voice and Colaboration
+              url: /p1_landing_page.html
+        - title: Help
+          folderitems:
+            - title: Jekyll Documentation Theme
+              url: /mydoc_introduction.html
+            - title: GitHub
+              external_url: https://github.com/tomjoht/documentation-theme-jekyll
+            - title: Jekyll Talk
+              external_url: https://talk.jekyllrb.com
+            - title: Jekyll documentation
+              external_url: http://jekyllrb.com/docs/home/
+            - title: Jekyll on Stack Overflow
+              external_url: http://stackoverflow.com/questions/tagged/jekyll
+            - title: Jeykll Document Theme 
+              external_url: https://idratherbewriting.com/jekylldoctheme-separate-outputs/mydoc/mydoc_decide_on_attributes.html
+            - title: Jekyll on my blog
+              external_url: http://idratherbewriting.com/category-jekyll/

@@ -1,0 +1,88 @@
+I"Z<h2 id="path-parameters">Path parameters</h2>
+
+<!-- Liquid chokes on the $ sign, so reference this variable instead -->
+
+<!-- Determine if there are any parameters of the specified type -->
+
+<!-- Read path, query, and formData parameters directly -->
+<table>
+    <thead>
+    <tr>
+        <th>Name</th><th>Type</th><th>Description</th><th>Required?</th>
+    </tr>
+    </thead>
+    <!-- For each parameter, get the information from the Swagger file -->
+    
+        
+        <tr>
+            <td><code>petId</code></td>
+            <td><code>integer</code></td>
+            <td>
+            <!-- If it's an enum, list the values first -->
+            
+            ID of pet that needs to be updated
+            </td>
+            <td><code>true</code></td>
+        </tr>
+        
+    
+        
+    
+        
+    
+</table>
+
+<h2 id="query-parameters">Query parameters</h2>
+
+<!-- Liquid chokes on the $ sign, so reference this variable instead -->
+
+<!-- Determine if there are any parameters of the specified type -->
+
+<p>None</p>
+
+<h2 id="body-parameters">Body parameters</h2>
+
+<!-- Liquid chokes on the $ sign, so reference this variable instead -->
+
+<!-- Determine if there are any parameters of the specified type -->
+
+<!-- Read path, query, and formData parameters directly -->
+<table>
+    <thead>
+    <tr>
+        <th>Name</th><th>Type</th><th>Description</th><th>Required?</th>
+    </tr>
+    </thead>
+    <!-- For each parameter, get the information from the Swagger file -->
+    
+        
+    
+        
+        <tr>
+            <td><code>name</code></td>
+            <td><code>string</code></td>
+            <td>
+            <!-- If it's an enum, list the values first -->
+            
+            Updated name of the pet
+            </td>
+            <td><code>false</code></td>
+        </tr>
+        
+    
+        
+        <tr>
+            <td><code>status</code></td>
+            <td><code>string</code></td>
+            <td>
+            <!-- If it's an enum, list the values first -->
+            
+            Updated status of the pet
+            </td>
+            <td><code>false</code></td>
+        </tr>
+        
+    
+</table>
+
+:ET
