@@ -15,21 +15,23 @@ summary: The Home for all Lumen Technical Documentation for IP , Transport, Metr
 ## TUNs
 
 <ul >
-    {% for post in site.posts limit:5 %}
-    <li><a href="{{post.url | remove: '/'}}">{{post.title}}</a></li>
-        {{ post.summary }}<br>
+{% assign sorted = site.posts | sort: 'date' |reverse %}
+    {% for post in sorted limit:5 %}
+    <li><span>{{ post.date | date_to_string }} </span> &raquo; <a href="{{ base.url }}{{ post.url }}">{{ post.title }}</a></li>
+    {{ post.summary }}<br>
     {% endfor %}
 </ul>
 
 ## HLDs
 
 <ul >
-{% assign sorted = site.hld | sort: 'date' |reverse %}
-    {% for post in sorted limit:5 %}
-    <li><a href="{{post.url | remove: '/'}}">{{post.title}}</a></li>
+    {% for post in site.posts limit:5 %}
+    <li><span>{{ post.date | date_to_string }} </span> &raquo; <a href="{{ base.url }}{{ post.url }}">{{ post.title }}</a></li>
+
         {{ post.summary }}<br>
     {% endfor %}
 </ul>
+
 
 ## LLDs
 

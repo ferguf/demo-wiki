@@ -1,0 +1,200 @@
+I"%<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <div class="post-header">
+   <h1 class="post-title-main">HLDs archives</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+
+    
+
+
+    
+
+   <div class="home">
+
+    <div class="post-list">
+
+
+    <section id="archive">
+        <h3>This year's posts</h3>
+        
+        
+            
+            
+            
+            
+            <li><time>01 Feb</time><a href="HLD_AS3356_002.html">HLD AS3356 Sample HLD#2</a></li>
+            
+        
+            
+            
+            
+            
+            <li><time>01 Feb</time><a href="HLD_AS3356_003.html">HLD AS3356 Sample HLD#3</a></li>
+            
+        
+        <ul class="this">
+            
+            <li><time>05 May</time><a href="HLD_AS3356_001.html">HLD AS3356 Sample HLD#1</a></li>
+            
+        </ul>
+    </section>
+    <hr />
+    </div>
+</div>
+
+
+    <div class="tags">
+        
+    </div>
+
+
+<div id="commento"></div>
+<script src="https://cdn.commento.io/js/commento.js"></script>
+<noscript>Please enable JavaScript to load the comments.</noscript>
+
+
+
+</div>
+
+<hr class="shaded" />
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2021 Lumen technology. All rights reserved. <br />
+ Site last generated: Jun 4, 2021 <br />
+<p><img src="images/company_logo.png" alt="Company logo" /></p>
+                </div>
+            </div>
+</footer>
+
+
+
+  <ul class="post-list">
+    
+      <li>
+        <span class="post-meta">May 21, 2021</span>
+
+        <h2>
+          <a class="post-link" href="/TUN_transport_003.html">Transport TUN - Sample Transport 003</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 12, 2021</span>
+
+        <h2>
+          <a class="post-link" href="/TUN_Metro_3.html">Metro TUN - ECN Certification</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 1, 2021</span>
+
+        <h2>
+          <a class="post-link" href="/TUN_transport_001.html">Transport TUN - Sample Transport-1</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 1, 2021</span>
+
+        <h2>
+          <a class="post-link" href="/TUN_Metro_2.html">Metro TUN - New 100GE QSFP28 Optics for Metro 3.0</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 1, 2021</span>
+
+        <h2>
+          <a class="post-link" href="/TUN_AS3356_2.html">AS3356 TUN - Nokia 7750 SR7 certification</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Apr 1, 2021</span>
+
+        <h2>
+          <a class="post-link" href="/TUN-AS209-1.html">AS209 TUN - sample TUN for AS209</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Apr 1, 2021</span>
+
+        <h2>
+          <a class="post-link" href="/AS209_TUN_sample_TUN_AS209.html">AS209 TUN - sample TUN for AS209</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Mar 1, 2021</span>
+
+        <h2>
+          <a class="post-link" href="/TUN_AS3549_2.html">AS3549 TUN - Nokia 7750 SR7 certification</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Jan 14, 2021</span>
+
+        <h2>
+          <a class="post-link" href="/Settiing-up-post.html">Setting up a Post</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Jan 1, 2021</span>
+
+        <h2>
+          <a class="post-link" href="/TUN_AS3549_1.html">AS3549 TUN - sample TUN for AS3549</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Jan 1, 2021</span>
+
+        <h2>
+          <a class="post-link" href="/TUN_AS3356_1.html">AS3356 TUN - sample TUN for AS3356</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Feb 26, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/samplepost.html">Sample post</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Feb 24, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/myupdate.html">Welcome to Jekyll!</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">Apr 12, 2015</span>
+
+        <h2>
+          <a class="post-link" href="/test-post-from-last-year.html">Test post from last year</a>
+        </h2>
+      </li>
+    
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+
+</div>
+:ET
